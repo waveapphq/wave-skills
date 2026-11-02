@@ -1,0 +1,12 @@
+{
+  "name": "wave-mcp",
+  "description": "Work with a WAVE server through its MCP tools: write and change tests as recipes, run them, find out why a run failed, and handle secrets and test data.",
+  "author": {
+    "name": "WAVE maintainers",
+    "url": "https://waveapp.dev"
+  },
+  "homepage": "https://github.com/waveapphq/wave-skills",
+  "repository": "https://github.com/waveapphq/wave-skills",
+  "license": "MIT",
+  "keywords": ["wave", "mcp", "testing", "test-automation"]
+}

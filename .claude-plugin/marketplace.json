@@ -1,0 +1,18 @@
+{
+  "$schema": "https://anthropic.com/claude-code/marketplace.schema.json",
+  "name": "wave-skills",
+  "description": "Skills for AI assistants that use WAVE, the Workflow Automation and Validation Engine",
+  "owner": {
+    "name": "WAVE maintainers",
+    "url": "https://waveapp.dev"
+  },
+  "plugins": [
+    {
+      "name": "wave-mcp",
+      "description": "Work with a WAVE server through its MCP tools: write and change tests as recipes, run them, find out why a run failed, and handle secrets and test data.",
+      "source": "./plugins/wave-mcp",
+      "category": "development",
+      "homepage": "https://github.com/waveapphq/wave-skills"
+    }
+  ]
+}
