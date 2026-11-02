@@ -17,9 +17,24 @@ In Claude Code, run:
 
 To use it, you need a WAVE server with its MCP server turned on, and your assistant connected to it. The skill explains how to connect.
 
+## Updates
+
+To get the latest skill, run these commands in a terminal, then restart Claude Code:
+
+```sh
+claude plugin marketplace update wave-skills
+claude plugin update wave-mcp@wave-skills
+```
+
+To get the latest skill each time Claude Code starts, run `/plugin` in Claude Code. In the list of marketplaces, open wave-skills and choose 'Enable auto-update'.
+
 ## Versions
 
 The skill tells the assistant to get the details that change between WAVE versions from your WAVE server, such as the recipe format and the settings of each Block.
+
+## Contributing
+
+To change the skill, see [CONTRIBUTING.md](CONTRIBUTING.md).
 
 ## License
 
