@@ -4,11 +4,11 @@ This doc covers how to change the wave-mcp skill. It says what the skill covers,
 
 ## What the skill covers
 
-The skill tells an AI assistant how to use the MCP tools of a WAVE server. It names the tools, the exact values they take and the mistakes to avoid.
+The skill tells an AI assistant how to use the MCP tools of a WAVE server. It names the tools, the exact values they take and the mistakes to avoid. For some Blocks, such as SQL, OpenSearch and SFTP, it also lists their operations, settings and profile fields.
 
-The skill does not describe the recipe format, the Blocks or their settings. The assistant reads those from the WAVE server, so they match the version of that server.
+The skill tells the assistant to read the recipe format and the settings of each Block from the WAVE server. Those match the version of that server.
 
-Change the skill when WAVE adds, removes, renames or changes an MCP tool. Also change it when a value or a mistake that it lists is no longer right. A new Block, a new Block setting or a change to the recipe format needs no change here.
+Change the skill when a change to WAVE makes something in it wrong: an MCP tool, a value, a Block setting or a behavior that it names. A new Block needs no skill change, because the assistant reads its settings from the server.
 
 ## Where each part is
 
